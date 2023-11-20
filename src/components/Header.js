@@ -1,23 +1,19 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import '../style/header.css';
 
 const Header = () => {
   return (
-    <header className="header-container">
-      <h1 className="header-title">Formulaire</h1>
+    <header className="header">
+      <h1 className="title">formulaire</h1>
       <nav>
-        <ul className="header-nav">
-          <li><Link to="/">Accueil</Link></li>
-          <li><Link to="/about">À propos</Link></li>
-          <li><Link to="/contact">Contact</Link></li>
+        <ul className="navList">
+          <li className="navItem"><a href="/">Accueil</a></li>
+          <li className="navItem"><a href="/about">À propos</a></li>
+          <li className="navItem"><a href="/contact">Contact</a></li>
         </ul>
       </nav>
     </header>
   );
 };
-
-
-
 
 export default Header;

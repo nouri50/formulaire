@@ -1,17 +1,29 @@
 import React from 'react';
+import Header from './Header';
 import Form from './Form';
 import Footer from './Footer';
-import Header from './Header';
+import { BrowserRouter } from 'react-router-dom';
+
+
+
+
+
 
 function App() {
   return (
-    <div>
-      <Header />
-      
-      <Form />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <div>
+        <Header />
+        <Form />
+        <Footer />
+      </div>
+    </BrowserRouter>
   );
 }
 
 export default App;
+
+
+
+
+

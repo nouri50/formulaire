@@ -1,10 +1,23 @@
-.header-container {
-    background-color: #333;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .header-title {
-    color: #fff;
-  }
+.header {
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.title {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.navList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navItem {
+  display: inline-block;
+  margin-right: 10px;
+}
   
